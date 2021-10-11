@@ -1,0 +1,12 @@
+﻿<Application x:Class="TrinusBank.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:vm="clr-namespace:TrinusBank.ViewModels"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TrinusBank"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:MainViewModel x:Key="mainViewModel"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
